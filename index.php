@@ -31,7 +31,7 @@
 
       <h1>ComingSoon</h1>
       <h2>This page is currently under construction. We are working hard to bring you new content. Please check back soon!</h2>
-      <div class="countdown d-flex justify-content-center" data-days="15" data-count="2023/12/5">
+      <div class="countdown d-flex justify-content-center" data-count="2024/6/30">
         <div>
           <h3>%d</h3>
           <h4>Days</h4>
@@ -124,7 +124,7 @@
 
         <div class="row justify-content-center">
           <div class="col-lg-10">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form action="forms/class.contact.php" method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="col-md-6 form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
