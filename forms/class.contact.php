@@ -20,14 +20,14 @@
   // SMTP credentials
   $contact->smtp = array(
     'host' => 'smtp.gmail.com',
-    'username' => 'idbscholarakram@gmail.com',
-    'password' => 'jbtqutetixbtwcir',
+    'username' => 'example@gmail.com',
+    'password' => 'password', //gmail generate app password
     'port' => '587'
   );
 
   $contact->add_message( $_POST['name'], 'From');
   $contact->add_message( $_POST['email'], 'Email');
-  $contact->add_message( $_POST['message'], 'Message', 10);
+  $contact->add_message( $_POST['message'], 'Message', 1000);
 
   echo $contact->send();
 
